@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmsAnalyzer</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtUniqueSenders">People Have Texted You.</string>
+    <string name="txtTotalTexts">Texts Have Been Sent Your Way.</string>
+    <string name="analyzeNow">Analyze Now!</string>
+    <string name="txtHomeNow">Back</string>
+    <string name="txtContactButton">Analyze a Friend!</string>
+    <string name="txtTotalAverageLength">Average Text Length</string>
+    <string name="txtTotalMessageRatio">Sent/Received Text Ratio</string>
+    <string name="txtContacts">Contact List</string>
+
+</resources>

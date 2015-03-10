@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#B5E655">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:text="SMS Analyzer"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/uniqueSenders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/txtUniqueSenders"
+        android:layout_below="@+id/uniqueSenders"
+        />
+
+    <TextView
+        android:id="@+id/totalTexts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        android:layout_below="@string/txtUniqueSenders"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        android:text="@string/txtTotalTexts"
+        android:layout_below="@+id/totalTexts"
+        />
+
+    <ImageButton
+        android:id="@+id/analyzeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/analyzeNow"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/button"
+        android:background="#B5E655"/>
+
+</LinearLayout>
